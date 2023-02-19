@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(90deg, var(--backround), var(--pink-100));
+  padding-bottom: 50px ;
 }
 
 .title-container{

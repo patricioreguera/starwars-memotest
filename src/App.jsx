@@ -14,7 +14,7 @@ function App() {
 			}
 			setTimeout(() => {
 				setSelected([]);
-			}, 300);
+			}, 700);
 		}
 	}, [selected]);
 
