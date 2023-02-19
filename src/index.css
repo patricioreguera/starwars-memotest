@@ -1,0 +1,16 @@
+:root {
+  --pink-50: hsl(270, 38%, 12%);
+  --pink-100: hsl(270, 40%, 16%);
+  --pink-200: hsl(270, 45%, 24%);
+  --pink-500: hsl(270, 60%, 52%);
+  font-family: system-ui;
+  background: linear-gradient(90deg ,black, var(--pink-50));
+  color: white;
+/*   background-repeat: no-repeat;
+  background-position: top;
+  background-image: url("../public/assets/background.jpg");  */
+
+
+}
+
+

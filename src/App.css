@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, var(--backround), var(--pink-100));
+}
+
+.title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px 40px;
+}
+.logo {
+  height: 100px;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+}
+
+
+.card {
+  width: 150px;
+  border-radius: 0.75rem;
+  border: 1px solid var(--pink-500);
+  box-shadow: var(--pink-200) 0px 4px 24px;
+  transition: 0.2s;
+}
+
+
+.card:hover {
+  cursor: pointer;
+  transition: 0.1s;
+  border: 1px solid var(--pink-500);
+  transform: scale(1.05);
+}
+
+
+
+@media only screen and (max-width: 730px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    }
+    .card {
+      width: 90px;
+      border-radius: 0.75rem;
+      border: 1px solid var(--pink-500);
+      box-shadow: var(--pink-100) 0px 4px 24px;
+    }
+    .logo {
+      height: 80px;
+    }
+}
