@@ -5,10 +5,21 @@
   --pink-500: hsl(270, 60%, 52%);
   font-family: system-ui;
   background: linear-gradient(90deg ,black, var(--pink-50));
+  background-color: #0d001e;
   color: white;
-/*   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: top;
-  background-image: url("../public/assets/background.jpg");  */
+  background-image: url("https://res.cloudinary.com/dhoxoi8ob/image/upload/v1676824470/background_jqlm2m.jpg"); 
+  background-blend-mode: screen;
+  position: sticky;
+  background-size: cover;
+/*   opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto; */
+
 
 
 }
